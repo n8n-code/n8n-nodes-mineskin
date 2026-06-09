@@ -53,11 +53,32 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Generate | Post generate upload, Post generate url, Post generate user |
-| Get | Get get delay, Get get id, Get get list, Get get uuid |
-| Util | Get validate name, Get validate uuid |
+<details>
+<summary><b>Generate</b> (3 operations)</summary>
+
+- Post Generate Upload
+- Post Generate URL
+- Post Generate User
+
+</details>
+
+<details>
+<summary><b>Get</b> (4 operations)</summary>
+
+- Get Get Delay
+- Get Get ID
+- Get Get List
+- Get Get Uuid
+
+</details>
+
+<details>
+<summary><b>Util</b> (2 operations)</summary>
+
+- Get Validate Name
+- Get Validate Uuid
+
+</details>
 
 ---
 

@@ -8,7 +8,7 @@ import type {
 export class MineskinApi implements ICredentialType {
 	name = 'N8nDevMineskinApi';
 
-	displayName = 'mineskin API';
+	displayName = 'Mineskin API';
 
 	icon: Icon = { light: 'file:../nodes/Mineskin/mineskin.png', dark: 'file:../nodes/Mineskin/mineskin.dark.png' };
 
@@ -22,7 +22,7 @@ export class MineskinApi implements ICredentialType {
 			default: 'https://api.mineskin.org',
 			required: true,
 			placeholder: 'https://api.mineskin.org',
-			description: 'The base URL of your mineskin API server',
+			description: 'The base URL of your Mineskin API server',
 		},
 		{
 			displayName: 'API Key',

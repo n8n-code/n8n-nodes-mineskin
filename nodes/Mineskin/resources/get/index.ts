@@ -27,9 +27,9 @@ export const getDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Get Id",
-					"value": "GET Get Id",
-					"action": "GET Get Id",
+					"name": "GET Get ID",
+					"value": "GET Get ID",
+					"action": "GET Get ID",
 					"description": "Deprecated. Use /get/uuid instead.",
 					"routing": {
 						"request": {
@@ -110,7 +110,7 @@ export const getDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_apikey",
 			"type": "string",
 			"default": "",
@@ -174,13 +174,13 @@ export const getDescription: INodeProperties[] = [
 						"Get"
 					],
 					"operation": [
-						"GET Get Id"
+						"GET Get ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"default": 0,
@@ -191,7 +191,7 @@ export const getDescription: INodeProperties[] = [
 						"Get"
 					],
 					"operation": [
-						"GET Get Id"
+						"GET Get ID"
 					]
 				}
 			}
@@ -216,7 +216,7 @@ export const getDescription: INodeProperties[] = [
 						"Get"
 					],
 					"operation": [
-						"GET Get Id"
+						"GET Get ID"
 					]
 				}
 			}

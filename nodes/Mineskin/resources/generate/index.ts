@@ -27,9 +27,9 @@ export const generateDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "POST Generate Url",
-					"value": "POST Generate Url",
-					"action": "POST Generate Url",
+					"name": "POST Generate URL",
+					"value": "POST Generate URL",
+					"action": "POST Generate URL",
 					"description": "",
 					"routing": {
 						"request": {
@@ -114,7 +114,7 @@ export const generateDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_apikey",
 			"type": "string",
 			"default": "",
@@ -178,7 +178,7 @@ export const generateDescription: INodeProperties[] = [
 						"Generate"
 					],
 					"operation": [
-						"POST Generate Url"
+						"POST Generate URL"
 					]
 				}
 			}
@@ -203,13 +203,13 @@ export const generateDescription: INodeProperties[] = [
 						"Generate"
 					],
 					"operation": [
-						"POST Generate Url"
+						"POST Generate URL"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Url",
+			"displayName": "URL",
 			"name": "url",
 			"type": "string",
 			"default": "",
@@ -227,13 +227,13 @@ export const generateDescription: INodeProperties[] = [
 						"Generate"
 					],
 					"operation": [
-						"POST Generate Url"
+						"POST Generate URL"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_apikey",
 			"type": "string",
 			"default": "",
@@ -253,7 +253,7 @@ export const generateDescription: INodeProperties[] = [
 						"Generate"
 					],
 					"operation": [
-						"POST Generate Url"
+						"POST Generate URL"
 					]
 				}
 			}
@@ -278,7 +278,7 @@ export const generateDescription: INodeProperties[] = [
 						"Generate"
 					],
 					"operation": [
-						"POST Generate Url"
+						"POST Generate URL"
 					]
 				}
 			}
@@ -352,7 +352,7 @@ export const generateDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_apikey",
 			"type": "string",
 			"default": "",
