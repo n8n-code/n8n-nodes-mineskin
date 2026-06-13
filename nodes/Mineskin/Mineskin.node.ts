@@ -4,32 +4,32 @@ import { getDescription } from './resources/get';
 import { utilDescription } from './resources/util';
 
 export class Mineskin implements INodeType {
-	description: INodeTypeDescription = {
-		displayName: 'Mineskin',
-		name: 'N8nDevMineskin',
-		icon: { light: 'file:./mineskin.png', dark: 'file:./mineskin.dark.png' },
-		group: ['input'],
-		version: 1,
-		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Client implementations:',
-		defaults: { name: 'Mineskin' },
-		usableAsTool: true,
-		inputs: [NodeConnectionTypes.Main],
-		outputs: [NodeConnectionTypes.Main],
-		credentials: [
-			{
-				name: 'N8nDevMineskinApi',
-				required: true,
-			},
-		],
-		requestDefaults: {
-			baseURL: '={{\$credentials.url}}',
-			headers: {
-				Accept: 'application/json',
-				'Content-Type': 'application/json',
-			},
-		},
-		properties: [
+        description: INodeTypeDescription = {
+                displayName: 'Mineskin',
+                name: 'N8nDevMineskin',
+                icon: { light: 'file:./mineskin.png', dark: 'file:./mineskin.dark.png' },
+                group: ['input'],
+                version: 1,
+                subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
+                description: 'Client implementations:',
+                defaults: { name: 'Mineskin' },
+                usableAsTool: true,
+                inputs: [NodeConnectionTypes.Main],
+                outputs: [NodeConnectionTypes.Main],
+                credentials: [
+                        {
+                                name: 'N8nDevMineskinApi',
+                                required: true,
+                        },
+                ],
+                requestDefaults: {
+                        baseURL: '={{\$credentials.url}}',
+                        headers: {
+                                Accept: 'application/json',
+                                'Content-Type': 'application/json',
+                        },
+                },
+                properties: [
 		{
 			"displayName": "Resource",
 			"name": "resource",
@@ -57,6 +57,6 @@ export class Mineskin implements INodeType {
 		...generateDescription,
 		...getDescription,
 		...utilDescription
-		],
-	};
+                ],
+        };
 }
